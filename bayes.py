@@ -3,7 +3,7 @@ import sys
 filename=str(sys.argv[1])
 with open(filename) as f:
 #start = time.clock()
-with open("sample01.txt") as f:
+with open("input_1.txt") as f:
     line = f.readlines()
 
 f = open('output.txt','w')
